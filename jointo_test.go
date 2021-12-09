@@ -61,7 +61,7 @@ func cvtElems(v []string) (out [][]byte) {
 	return out
 }
 
-func TestString(t *testing.T) {
+func TestAll(t *testing.T) {
 	buf := &bytes.Buffer{}
 
 	// test with every combination of optional methods
